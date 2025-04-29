@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnatchLock</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f7ff;
+      color: #222;
+    }
+    header {
+      background-color: #0077cc;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #d0eaff;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 40px;
+      background: linear-gradient(to right, #e3f2fd, #ffffff);
+    }
+    .hero-text {
+      max-width: 50%;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #005fa3;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .hero button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      background-color: #0077cc;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .mockup {
+      max-width: 40%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 60px 40px;
+      background-color: #f9fbff;
+    }
+    section:nth-child(even) {
+      background-color: #ffffff;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #005fa3;
+    }
+    .gallery img {
+      max-width: 100%; 
+      margin: 10px 0;
+      border-radius: 10px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    footer {
+      padding: 30px 40px;
+      text-align: center;
+      background-color: #e0ebf5;
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SnatchLock</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it Works</a>
+      <a href="#preorder">Pre-Order</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Protect Your Phone. Effortlessly.</h1>
+      <p>SnatchLock is a smart, eco-friendly wristband and app combo that locks, tracks, and alerts if your phone is snatched.</p>
+      <button onclick="location.href='#preorder'">Pre-Order on Kickstarter</button>
+    </div>
+    <img class="mockup" src="mockup.jpg" alt="SnatchLock Product Mockup" />
+  </div>
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Instant Phone Lock on Disconnection</li>
+      <li>GPS Tracking with Satellite View</li>
+      <li>Alarm and Camera Activation</li>
+      <li>Eco-friendly, Recycled Materials</li>
+      <li>Police-Ready Incident Log</li>
+    </ul>
+  </section>
+  <section id="how-it-works">
+    <h2>How It Works</h2>
+    <p>Attach the SnatchLock band to your device's charging port and wear it around your wrist. If the connection is broken without disarming the app, your phone immediately locks and alerts are triggered.</p>
+  </section>
+  <section id="preorder">
+    <h2>Kickstarter Campaign</h2>
+    <p>Support the launch of SnatchLock and get exclusive early access. Pre-order now to be part of our mission to make cities safer and tech smarter.</p>
+    <button onclick="window.open('https://kickstarter.com/projects/snatchlock', '_blank')">Visit Campaign</button>
+  </section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="ipad-app-screen.jpg" alt="SnatchLock iPad Tracking App">
+      <img src="pov-theft-scene.jpg" alt="SnatchLock Theft in Action POV">
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions, press inquiries, or interested in partnerships? Reach out to our team at <a href="mailto:hello@snatchlock.com">hello@snatchlock.com</a>.</p>
+  </section>
+  <footer>
+    &copy; 2025 SnatchLock Technologies. All rights reserved.
+  </footer>
+</body>
+</html>
